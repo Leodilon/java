@@ -1,0 +1,12 @@
+package Classe;
+
+public class Data {
+	int dia;
+	String mes;
+	int ano;
+	
+	String obterDataFormatada () {
+		String a = Integer.toString(dia) + "de" + mes + "de" + Integer.toString(ano);
+		return a;
+	}
+}

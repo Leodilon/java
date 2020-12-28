@@ -1,0 +1,16 @@
+package fundamentos;
+
+public class tempratura {
+
+	public static void main(String[] args) {
+		double f = 50;
+		final int constante = 32;
+		final double FATOR = 5.0/9.0;
+		double c;
+		
+		c = (f - constante) * FATOR;
+		
+		System.out.println(c);
+	}
+
+}

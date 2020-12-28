@@ -1,0 +1,20 @@
+package Classe;
+
+public class DataTeste {
+
+	public static void main(String[] args) {
+		Data d1 = new Data();
+		Data d2 = new Data();
+		
+		d1.dia = 16;
+		d1.mes = "Janeiro";
+		d1.ano = 1990;
+		
+		d2.dia = 06;
+		d2.mes = "Dezembro";
+		d2.ano = 2020;
+		
+		System.out.printf("A primeira data é: %d de %s de %d", d1.dia, d1.mes, d1.ano);
+		System.out.printf("\nA segunda data é: %d de %s de %d", d2.dia, d2.mes, d2.ano);
+	}
+}

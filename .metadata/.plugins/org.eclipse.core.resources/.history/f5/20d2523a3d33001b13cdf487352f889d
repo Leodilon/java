@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class tempratura {
+
+	public static void main(String[] args) {
+
+	}
+
+}
