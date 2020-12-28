@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="Classe.AreaCirc"/>
     <fullyQualifiedTypeName name="classe.Data"/>
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
     <fullyQualifiedTypeName name="classe.Usuario"/>
@@ -31,7 +30,6 @@
     <fullyQualifiedTypeName name="oo.heranca.Direcao"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64ArithmeticOp.ExtendedAddSubShiftOp"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
-    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Pessoa"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Arroz"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Feijao"/>
@@ -40,4 +38,18 @@
     <fullyQualifiedTypeName name="lambda.Multiplicar"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="lambda.Calculo"/>
+    <fullyQualifiedTypeName name="arrays.Foreach"/>
+    <fullyQualifiedTypeName name="lambda.Foreach"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+    <fullyQualifiedTypeName name="lambda.Produto"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>

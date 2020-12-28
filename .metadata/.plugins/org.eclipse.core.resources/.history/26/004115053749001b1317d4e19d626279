@@ -1,0 +1,14 @@
+package lambda;
+
+import java.util.function.Function;
+
+public class Funcoes {
+
+	public static void main(String[] args) {
+		
+		Function<Integer, String> parOuImpar = numero -> numero % 2 == 0 ? "Par" : "Impar";
+		
+		System.out.println(parOuImpar.apply(33));
+		System.out.println(parOuImpar.apply(32));
+	}
+}
