@@ -572,7 +572,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_8pNQQEk_EeuxVPvwaZEaaQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Desafio.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Desafio.java&quot; partName=&quot;Desafio.java&quot; title=&quot;Desafio.java&quot; tooltip=&quot;exercicios/src/lambda/Desafio.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/exercicios/src/lambda/Desafio.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;629&quot; selectionTopPixel=&quot;120&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Desafio.java&quot; partName=&quot;Desafio.java&quot; title=&quot;Desafio.java&quot; tooltip=&quot;exercicios/src/lambda/Desafio.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/exercicios/src/lambda/Desafio.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;629&quot; selectionTopPixel=&quot;52&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -883,7 +883,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_atje8jgNEeuV4NZUuLBlCg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4oe-EElFEeuaVOhZFN5UOA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_atnygDgNEeuV4NZUuLBlCg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_bke4AEl0EeumcJh6d7FJ0Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_atnygDgNEeuV4NZUuLBlCg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_atje_zgNEeuV4NZUuLBlCg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -937,7 +937,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_atjfijgNEeuV4NZUuLBlCg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4ohaUElFEeuaVOhZFN5UOA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_atnyJzgNEeuV4NZUuLBlCg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_bkiiYEl0EeumcJh6d7FJ0Q" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_atnyJzgNEeuV4NZUuLBlCg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_atjflzgNEeuV4NZUuLBlCg" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" visible="false">
         <tags>Draggable</tags>
