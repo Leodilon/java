@@ -1,0 +1,14 @@
+package streams;
+
+public class Aluno {
+
+	final public String nome;
+	final public Double nota;
+	
+	public Aluno(String nome, Double nota) {
+		this.nome = nome;
+		this.nota = nota;
+	}
+	
+	
+}

@@ -1,0 +1,29 @@
+package streams;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+public class DesafioProduto {
+
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto("Queijo", 45.25, true);
+		Produto p2 = new Produto("Papel Aluminio", 12.30, false);
+		Produto p3 = new Produto("Manteiga", 13.55, true);
+		Produto p4 = new Produto("Vassoura", 22.30, false);
+		Produto p5 = new Produto("Pão de forma", 6.35, true);
+		
+		List<Produto> prod = Arrays.asList(p1, p2, p3, p4, p5);
+		
+		Predicate<Produto> perecivel = p -> p.perecivel;
+		Predicate<Produto> preco = p -> p.preco >= 10.0;
+		Function<Produto, String> desconto = p -> {
+			double precoFinal = p.preco * (1 - 0.15);
+			return "O produto perecivel " + p.nome + " esta com desconto e custa R$" + precoFinal;
+		};
+		
+		prod.stream().filter(perecivel).filter(preco).map(desconto).forEach(System.out::println);
+	}
+}
