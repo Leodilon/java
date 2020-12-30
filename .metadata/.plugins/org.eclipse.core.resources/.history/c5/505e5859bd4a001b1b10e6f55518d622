@@ -1,0 +1,18 @@
+package excecao;
+
+public class ChecadaVsNaoChecada {
+
+	public static void main(String[] args) {
+		
+		gerarErro1();
+		gerarErro2();
+	}
+	
+	static void gerarErro1() {
+		throw new RuntimeException("Ocorreu o erro #1!");
+	}
+	
+	static void gerarErro2() {
+		new Exception("Ocorreu o erro #2!");
+	}
+}

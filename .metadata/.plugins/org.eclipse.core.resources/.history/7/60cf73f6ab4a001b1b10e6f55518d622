@@ -1,0 +1,21 @@
+package excecao;
+
+public class Basico {
+
+	public static void main(String[] args) {
+		
+		Aluno a1 = null;
+		
+		try {
+			imprimirNome(a1);
+		} catch (Exception e) {
+			
+			System.out.println(e.getMessage());
+		}
+		
+	}
+	
+	public static void imprimirNome(Aluno aluno) {
+		System.out.println(aluno.nome);
+	}
+}

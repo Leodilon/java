@@ -1,0 +1,16 @@
+package excecao;
+
+public class Basico {
+
+	public static void main(String[] args) {
+		
+		Aluno a1 = null;
+		
+		imprimirNome(a1);
+		
+	}
+	
+	public static void imprimirNome(Aluno aluno) {
+		System.out.println(aluno.nome);
+	}
+}
